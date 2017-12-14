@@ -1,0 +1,66 @@
+@import url("base.css");
+body{
+	background: #f5f5f5;
+}
+.box{
+	width: 600px;
+	height: auto;
+	margin: 20px auto;
+}
+table{
+	width: 600px;
+	height: auto;
+	margin: 20px auto;
+}
+tr{
+	width: 600px;
+	height: 50px;
+	padding: 5px 10px;
+}
+tr:nth-child(2n){
+	background: #fff;
+}
+tr:nth-child(2n+1){
+	background: skyblue;
+}
+th,td{
+	width: 99px;
+	height: 50px;
+	padding: 5px;
+	border-right: 1px solid #ccc;
+	text-align: center;
+}
+th:last-child{
+	border-right: 0;
+}
+td:last-child{
+	border-right: 0;
+}
+button{
+	padding: 10px 20px;
+	background: skyblue;
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	float: right;
+	border: 0;
+	margin-right: 15px;
+}
+.del{
+	background: #fff;
+}
+.del_btn{
+	display: block;
+	margin: 0 12px;
+	background: skyblue;
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	border: 0;
+}
+.clear{
+	clear: both;
+}
